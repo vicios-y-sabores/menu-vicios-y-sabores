@@ -6,6 +6,7 @@
     <title>Menú | Vicios & Sabores</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
    <header class="header">
         <img src="img/logo1.jpg" alt="Logo Vicios & Sabores" class="logo">
         <h1 class="glow-text">MENÚ DIGITAL</h1>
-        <p class="slogan">"Sabores que se hacen vicio"</p>
+        <p class="slogan">"Sabores que se hacen vicios"</p>
     </header>
    
     <main class="menu-container">
@@ -22,6 +23,7 @@
             <h2>👋 ¡BIENVENIDOS A VICIOS & SABORES! 👋</h2>
             <div class="instructions">
                 <p>🔥 <strong>MODALIDAD AUTOSERVICIO</strong> 🔥</p>
+                <br>
                 <div class="steps-container">
                     <div class="step">
                         <span class="step-number">1</span>
@@ -33,12 +35,31 @@
                     </div>
                     <div class="step">
                         <span class="step-number">3</span>
-                        <span>Te <strong>llamaremos</strong> apenas tu comida esté lista y bien caliente.</span>
+                        <span>Te <strong>llevaremos tu pedido</strong> apenas esté listo.</span>
                     </div>
-                    
+                </div>
+
+                <div class="social-header-container">
+                    <p>¡Síguenos y contáctanos!</p>
+                    <div class="social-grid">
+                        <a href="https://wa.me/59167420178?text=Hola,%20tengo%20una%20consulta" target="_blank" class="social-item whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>67420178</span>
+                        </a>
+                        <a href="https://www.facebook.com/share/1CmFgkCyjf/" target="_blank" class="social-item facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/vicios_y_sabores?igsh=dHRreWs0ODljcDBy" target="_blank" class="social-item instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@vicios_y_sabores?_r=1&_t=ZS-94Q6gShtNyh" target="_blank" class="social-item tiktok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
+        
         <br>
         
         <section class="menu-category" id="alitas">
@@ -67,7 +88,7 @@
                             <p>2 Salsas + Porción de papa</p>
                             <p class="salsas">BBQ - Miel Mostaza - Picante</p>
                         </div>
-                        <div class="item-price">30 Bs.</div>
+                        <div class="item-price">32 Bs.</div>
                     </div>
                 </div>
                 <div class="category-img-container">
@@ -99,14 +120,14 @@
                             <h3>CUARTO DE POLLO</h3>
                             <p>Pierna y Entre Pierna</p>
                         </div>
-                        <div class="item-price">25 Bs.</div>
+                        <div class="item-price">24 Bs.</div>
                     </div>
                     <div class="menu-item">
                         <div class="item-info">
                             <h3>CUARTO DE POLLO</h3>
                             <p>Pecho y Ala</p>
                         </div>
-                        <div class="item-price">28 Bs.</div>
+                        <div class="item-price">26 Bs.</div>
                     </div>
                 </div>
                 <div class="category-img-container">
@@ -115,10 +136,52 @@
             </div>
         </section>
 
+        <section class="menu-category" id="silpancho">
+            <h2>🔥 SILPANCHO 🔥</h2>
+            <div class="category-layout">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>SILPANCHO DE RES</h3>
+                            <p>Arroz, papa, carne, huevo y ensalada</p>
+                        </div>
+                        <div class="item-price">15 Bs.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>SILPANCHO CON 2 HUEVOS</h3>
+                            <p>Doble huevo frito</p>
+                        </div>
+                        <div class="item-price">17 Bs.</div>
+                    </div>
+                </div>
+                <div class="category-img-container">
+                    <img src="img/Silpancho.jpg" alt="Silpancho" class="food-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-category" id="milanesa">
+            <h2>🔥 MILANESA 🔥</h2>
+            <div class="category-layout">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>MILANESA DE POLLO</h3>
+                            <p>Arroz, papas fritas y ensalada</p>
+                        </div>
+                        <div class="item-price">15 Bs.</div>
+                    </div>
+                </div>
+                <div class="category-img-container">
+                    <img src="img/milanesa.jpg" alt="Milanesa" class="food-img">
+                </div>
+            </div>
+        </section>
+
         <section class="menu-category" id="refrescos">
             <h2>🍹 REFRESCOS 🍹</h2>
             <div class="menu-grid drinks-grid">
-                
                 <div class="menu-item drink-item">
                     <img src="img/Moconchinchi.jpg" alt="Vaso Maracuyá" class="item-icon">
                     <div class="item-info">
@@ -127,7 +190,6 @@
                     </div>
                     <div class="item-price">3 Bs.</div>
                 </div>
-
                 <div class="menu-item drink-item">
                     <img src="img/jarra_Limon.jpg" alt="Jarra 1 y media" class="item-icon">
                     <div class="item-info">
@@ -136,7 +198,6 @@
                     </div>
                     <div class="item-price">10 Bs.</div>
                 </div>
-
                 <div class="menu-item drink-item">
                     <img src="img/jarra_Maracuya.jpg" alt="Jarra 2 y media" class="item-icon">
                     <div class="item-info">
@@ -145,53 +206,33 @@
                     </div>
                     <div class="item-price">15 Bs.</div>
                 </div>
-
                 <div class="menu-item drink-item">
                     <img src="img/coca cola.jpg" alt="Coca Cola" class="item-icon">
                     <div class="item-info">
                         <h3>COCA COLA</h3>
                     </div>
                     <div class="multi-price">
-                        <div class="price-row">
-                            <span>Mini</span>
-                            <span class="price-val">3 Bs.</span>
-                        </div>
-                        <div class="price-row">
-                            <span>Popular</span>
-                            <span class="price-val">8 Bs.</span>
-                        </div>
-                        <div class="price-row">
-                            <span>2 Litros</span>
-                            <span class="price-val">15 Bs.</span>
-                        </div>
+                        <div class="price-row"><span>Mini</span><span class="price-val">3 Bs.</span></div>
+                        <div class="price-row"><span>Popular</span><span class="price-val">8 Bs.</span></div>
+                        <div class="price-row"><span>2 Litros</span><span class="price-val">15 Bs.</span></div>
                     </div>
                 </div>
-
                 <div class="menu-item drink-item">
                     <img src="img/del_sol.jpg" alt="Del Sol" class="item-icon">
                     <div class="item-info">
                         <h3>DEL SOL</h3>
                     </div>
                     <div class="multi-price">
-                        <div class="price-row">
-                            <span>620 ml</span>
-                            <span class="price-val">10 Bs.</span>
-                        </div>
-                        <div class="price-row">
-                            <span>1 Litro</span>
-                            <span class="price-val">15 Bs.</span>
-                        </div>
+                        <div class="price-row"><span>1 Litro</span><span class="price-val">15 Bs.</span></div>
                     </div>
                 </div>
-
             </div>
         </section>
-        
-
     </main>
-    
+
+    <footer class="social-footer">
+        <p class="footer-copy">&copy; 2026 Vicios & Sabores - Cochabamba</p>
+    </footer>
 
 </body>
-
 </html>
-
