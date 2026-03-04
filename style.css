@@ -318,3 +318,108 @@ body {
     color: #ff4500;
     text-shadow: 0 0 10px rgba(255, 69, 0, 0.8);
 }
+
+/* --- FOOTER Y REDES SOCIALES --- */
+.social-footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #ff4500;
+    margin-top: 2rem;
+}
+
+.social-footer p {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* (Tus configuraciones generales anteriores se mantienen...) */
+
+/* --- REDES SOCIALES EN EL ENCABEZADO --- */
+.social-header-container {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 69, 0, 0.3);
+}
+
+.social-header-container p {
+    font-size: 1.2rem;
+    color: #ffaa00;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.social-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-item {
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.social-item.whatsapp {
+    width: auto;
+    padding: 0 20px;
+    border-radius: 25px;
+    background: #25D366;
+    font-size: 1.2rem;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.social-item.facebook { background: #1877F2; }
+.social-item.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #bc1888); }
+.social-item.tiktok { background: #000; border: 1px solid #00f2ea; }
+
+.social-item:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.6);
+}
+
+/* (El resto de tus estilos como .menu-category, .menu-item, etc. permanecen igual) */
+
+.footer-copy {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-family: sans-serif;
+}
